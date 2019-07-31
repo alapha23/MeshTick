@@ -1,4 +1,4 @@
-### Report on the first Phase
+## Report on the First Phase
 
 Objective
 ---
