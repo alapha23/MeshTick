@@ -10,7 +10,7 @@ In the second phase, I will use numpy-stl to support island detection in 3D mode
 What I have done
 ---
 
-I wrote python scripts that try to find islands in 3d models. I am using a straight forward algorithm -- to detect points that above the lowest point in model, filter the points above to specify the points on the surface, and cut those suface points into grids. Every grid would need a supporter. 
+I wrote [python scripts](https://github.com/alapha23/MeshTick/blob/master/FindIsland/main.py) that try to find islands in 3d models. I am using a straight forward algorithm -- to detect points that above the lowest point in model, filter the points above to specify the points on the surface, and cut those suface points into grids. Every grid would need a supporter. 
 
 I am debuging on how to filter the points to find the surface points, and I think there should be APIs in numpy-stl to make things easier. Currently I am not aware of it.
 
